@@ -12,13 +12,13 @@ import java.util.Random;
 public class HelloServiceImpl implements HelloService {
     @Override
     public String hello() {
-        int sl = new Random().nextInt(7);
-        try {
-            System.out.println(sl*1000);
-            Thread.sleep(sl*1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+//        int sl = new Random().nextInt(7);
+//        try {
+//            System.out.println(sl*1000);
+//            Thread.sleep(sl*1000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
         return "hello sprigncloud";
     }
 
