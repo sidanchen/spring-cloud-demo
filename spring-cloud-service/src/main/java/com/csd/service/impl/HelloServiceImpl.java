@@ -21,4 +21,9 @@ public class HelloServiceImpl implements HelloService {
         }
         return "hello sprigncloud";
     }
+
+    @Override
+    public String hello(String s) {
+        return "hello this is parame:"+s;
+    }
 }
