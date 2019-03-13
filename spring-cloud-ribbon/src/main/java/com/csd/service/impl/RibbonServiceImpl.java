@@ -21,6 +21,8 @@ public class RibbonServiceImpl implements RibbonService {
         return restTemplate.getForObject("http://HELLO-SERVICE/hello/hello",String.class);
     }
 
+
+
     public String errorMethod(){
         return "this is hystrix return string";
     }
